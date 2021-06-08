@@ -1,0 +1,218 @@
+<!DOCTYPE html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./meuEstilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Texturina:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e995af507.js" crossorigin="anonymous"></script>
+    <title>Poções e Soluções</title>
+</head>
+
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand  " href="#"><h1 style="font-size: 2rem; justify-items: center;">Poções e Soluções</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link" href="#produtos">Produtos <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#loja">Quem somos</a>
+                    <a class="nav-link" href="#historico">Histórico</a>
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </div>
+                </div>
+            </nav> 
+    </header>
+    
+    <main class="container">
+        
+        <h2 id=produtos class="text-center pt-3">Produtos</h2>
+        
+        <section id="pocoes" class="d-flex bd-highlight row p-2">
+            
+            <div class="col-lg-4 mt-3 p-2 produtos">
+                        <h3>Potion of cure disease</h3>
+                        <p class="text-justify">
+                        Indispensável para qualquer tipo de aventureiro, esta poção cura qualquer tipo de doença, desde uma simples intoxicação alimentar
+                        até uma Sanguinare Vampiris (se consumida nos primeiros 3 dias após a infecção).
+                        </p>
+                    <img src="./imgs/CureDisease.png" alt="Potion of cure disease">
+                    <p>R$50,00</p>
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
+                        Comprar
+                      </button>            
+            </div>
+
+            <div class="col-lg-4 mt-3 p-2 produtos">
+                        <h3>Potion of Blood</h3>
+                        <p class="text-justify">
+                            Cansado de caçar humanos? Esta poção é para você, amigo vampiro. Similar ao sangue humano, uma única dose é capaz de regenerar toda 
+                            a sua saúde em até 10 minutos. Um frasco rende aproximadamente 10 doses.
+                        </p>
+                    <img src="./imgs/PotionOfBlood.png" alt="Potion of blood">
+                    <p>R$30,00</p>
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
+                        Comprar
+                      </button>
+            </div>
+
+            <div class="col-lg-4 mt-3 p-2 produtos">
+                <h3>Elixir of True Shot</h3>
+                <p class="text-justify">
+                    Vai para uma batalha mortal ou simplesmente sair caçar um animal para o almoço? Esta poção mágica, que é voltada especialmente para os arqueiros, 
+                    aumenta o dano das flechas em 50% durante 1 minuto.
+                </p>
+                <img src="./imgs/TrueShot.png" alt="Elixir of True Shot">
+                <p>R$35,00</p>
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
+                    Comprar
+                  </button>
+            </div>
+
+            <div class="col-lg-4 mt-3 p-2 produtos">
+                <h3>Potion of Waterbreathing</h3>
+                <p class="text-justify">
+                    Esta poção garante 15 segundos de respiração debaixo d'água, sem a necessidade de qualquer equipamento.
+                    Para uma duração maior, múltiplos frascos podem ser ingeridos, pois não há efeitos colaterais.
+                </p>
+                <img src="./imgs/Waterbreathing.png" alt="Potion of Waterbreathing">
+                <p>R$13,50</p>
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
+                    Comprar
+                  </button>
+            </div>
+
+            <div class="col-lg-4 mt-3 p-2 produtos">
+                    <h3>Potion of Plentiful Magicka</h3>
+                    <p class="text-justify">
+                        Poção favorita dos magos experientes e feita com ingredientes raros da alquimia, esta poção é capaz de regenerar 75% da magia. Não é indicada
+                        para Orcs, pois pode haver efeitos colaterais.
+                    </p>
+                    <img src="./imgs/Magicka.png" alt="Potion of Plentiful Magicka">
+                    <p class="d-flex">R$20,00</p>
+                        <button type="button" class="btn btn-dark " data-toggle="modal" data-target="#staticBackdrop">
+                            Comprar
+                          </button> 
+                
+            </div>
+
+            <div class="col-lg-4 mt-3 p-2 produtos">
+                <h3>Deadly Stamina Poison</h3>
+                <p class="text-justify">
+                    Voltado para quem vai enfrentar qualquer tipo de guerreiro, este veneno poderoso drena aproximadamente 90% do vigor do inimigo. Pode ser usado em adagas,
+                    flechas ou até mesmo em machados de duas mãos.
+                </p>
+                <img src="./imgs/StaminaPoison.png" alt="Deadly Stamina Poison">
+                <p>R$45,00</p>
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#staticBackdrop">
+                    Comprar
+                  </button>
+            </div>
+
+
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog cor-modal">
+                  <div class="modal-content">
+                    <div class="modal-header cor-modal">
+                      <h5 class="modal-title cor-modal" id="staticBackdropLabel">Compra</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body cor-modal">
+                      Entre em contato para adquirir o produto.
+                    </div>
+                    <div class="modal-footer cor-modal">
+                      <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id=loja class="cor-secao mt-4 p-2">
+            <h2 class="text-center">Quem somos</h2>
+            <p class="text-justify">
+                Poções e Soluções foi uma das pioneiras da alquimia em Capivari e hoje é uma das maiores da região. Desde sua criação, a empresa é formada por histórias incríveis e 
+                por um time obcecado por qualidade, já que o nosso foco é a satisfação do cliente.
+            </p>
+            <p class="text-justify">
+                Com ótimos preços e com mais de 2000 produtos no catálago, a Porções e Soluções está sempre à frente e traz em primeira mão os melhores lançamentos, além 
+                de produtos exclusivos.
+            </p>
+            <p class="text-justify">
+                São mais de 100 mil pessoas e 150 espécies satisfeitas apenas com venda presencial. Agora inserida no mercado eletrônico, a tendência é que esses números crescam 
+                e que possamos levar a nossa qualidade para o mundo todo.
+            </p>
+        </section>
+
+        <section id=historico class="mt-4 p-2">
+            <h2 class="text-center">Histórico</h2>
+            
+            <p class="text-justify">
+                Fundada por Annabelle Merigold em 1867 no Beco Vertical, a Poções e Soluções passou por muitas reformas, sempre buscando o melhor
+                ambiente para os clientes e colaboradores. As imagens a seguir mostram um pouco dessa história.
+            </p>
+            
+            <figure class="mt-10">
+                <img src="./imgs/PrimeiraMesa.png" class="img-fluid" alt="Primeira mesa de alquimia">
+                <figcaption>Primeira mesa de alquimia (1867)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imgs/PrimeirasPocoes.png" class="img-fluid" alt="Primeiras poções">
+                <figcaption>Primeiras poções feitas (1867)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imgs/Laboratorio.jpg" class="img-fluid" alt="Laboratório novo">
+                <figcaption>Um dos laboratórios feitos (1895)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imgs/Pocoes.jpg" class="img-fluid" alt="Poções">
+                <figcaption>Estoque de poções (1967)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imgs/Recepcao.png" class="img-fluid" alt="Recepção">
+                <figcaption>Recepção atualmente (2020)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imgs/VistaAerea.png" class="img-fluid" alt="Vista aérea">
+                <figcaption>Vista aérea da Soluções e Poções (2020)</figcaption>
+            </figure>
+        </section>
+        
+        <footer id=contato class="flex-column cor-secao mt-4 p-2">
+            <h2 class="text-center">Contato</h2>
+            <div class="d-flex align-items-baseline">
+                <i class="p-2 bd-highlight fas fa-map-marker-alt"></i>
+                <p class="p-2 bd-highlight">Beco Vertical, 34, Centro, Capivari-SP</p>
+            </div>
+                
+            <div class="d-flex align-items-baseline">
+                <i class="p-2 bd-highlight fas fas fa-phone"></i>
+                <p class="p-2 bd-highlight">(19) 900000000</p>
+            </div>
+
+            <div class="d-flex align-items-baseline">
+                <i class="p-2 bd-highlight fas fa-envelope"></i>
+                <p class="p-2 bd-highlight teste">solucoesepocoes@jmail.com</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+<script src="./recuperarPocoes.js"> </script>
+
+
+</html>
