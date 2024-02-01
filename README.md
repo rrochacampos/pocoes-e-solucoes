@@ -2,11 +2,11 @@
 
 ![](./screen.png)
 
-![](./screen2.png) ![](./screen3.png)  
+![](./screen2.png) ![](./screen3.png)
 
 ## Sobre
 
-Página construída com [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS), [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) e [Bootstrap](https://getbootstrap.com/) durante uma atividade da faculdade. A *Poções e Soluções* é uma loja fictícia que vende poções. Com a pandemia de COVID-19, as vendas da loja caíram, então a cliente decidiu investir em um website de vendas. A página foi desenvolvida seguindo algumas exigências da cliente, como:
+Página construída com [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML), [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS), [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) e [Bootstrap](https://getbootstrap.com/) durante uma atividade da faculdade. A _Poções e Soluções_ é uma loja fictícia que vende poções. Com a pandemia de COVID-19, as vendas da loja caíram, então a cliente decidiu investir em um website de vendas. A página foi desenvolvida seguindo algumas exigências da cliente, como:
 
 - Uma descrição da loja.
 - Uma seção de histórico com fotos.
@@ -18,6 +18,6 @@ Página construída com [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML
 - Menu de navegação.
 - Utilizar uma API para recuperar dados de produtos (enquanto estiverem disponíveis).
 
-## Como utilizar
+## Como Visualizar
 
-De modo mais simples, basta abrir o arquivo *index.html* no seu navegador web.
+Para visualizar a página basta [clicar aqui](https://rrochacampos.github.io/pocoes-e-solucoes/).
